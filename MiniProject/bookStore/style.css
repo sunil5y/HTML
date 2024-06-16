@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#searchBar, #newBookInput {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#addBookBtn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bookList {
+    list-style: none;
+    padding: 0;
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+}
+
+.book-item.favorite {
+    background-color: #ffd700;
+}
+
+.book-item button {
+    margin-left: 10px;
+    cursor: pointer;
+}
